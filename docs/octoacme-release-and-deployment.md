@@ -11,9 +11,25 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
+- **QA Lead sign-off**: QA Lead confirms all in-scope stories passed acceptance testing (no open P1/P2 defects)
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+
+## Release Readiness Roles & Sign-offs
+
+Each role below has a specific sign-off responsibility before a release proceeds:
+
+| Role | Sign-off Responsibility |
+|---|---|
+| **QA Lead / Test Engineer** | Confirms acceptance criteria met; no blocking defects open |
+| **Product Manager (PdM)** | Confirms the release delivers agreed scope and meets success metrics |
+| **Project Manager (PM)** | Confirms schedule, communications, and stakeholder notifications are ready |
+| **DevOps / Platform Engineer** | Confirms deployment pipeline is green, staging smoke tests pass, and rollback plan is ready |
+| **Developer(s)** | Confirms no known regressions introduced; documentation updated |
+| **Engineering Manager / Tech Lead** (if applicable) | Confirms technical readiness and approves any architectural changes |
+
+> All sign-offs should be recorded on the release ticket or in the release notes document before production deployment begins. See the [RACI Template](octoacme-raci-template.md) for the full responsibility breakdown.
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
@@ -36,3 +52,10 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Notable changes:
 - Migration steps (if any):
 - Known issues:
+
+---
+
+## Related docs
+- [Roles & Personas](octoacme-roles-and-personas.md) — QA Lead and DevOps personas for release sign-off details
+- [RACI Template](octoacme-raci-template.md)
+- [Execution & Tracking](octoacme-execution-and-tracking.md)

@@ -22,8 +22,10 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Acceptance criteria:
 - Priority:
 - Estimate:
-- Owner:
+- **Owner** (individual or role responsible for delivery):
 - Related docs/links:
+
+> Every backlog item **must** have a named owner and at least one acceptance criterion before it is pulled into a sprint. For cross-functional items, confirm ownership against the [RACI Template](octoacme-raci-template.md).
 
 ## Sprint / Iteration Planning
 - Timebox planning to agreed sprint length
@@ -37,7 +39,17 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Planning Checklist
 - [ ] Project kickoff held
-- [ ] Backlog prioritized and estimated
+- [ ] Required roles confirmed using the [Roles & Ownership Checklist](octoacme-roles-and-ownership-checklist.md)
+- [ ] RACI matrix completed for cross-functional activities (see [RACI Template](octoacme-raci-template.md))
+- [ ] Backlog prioritized and estimated; every item has an owner and acceptance criteria
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Initial test plan / QA approach drafted with QA Lead
+
+---
+
+## Related docs
+- [Roles & Personas](octoacme-roles-and-personas.md)
+- [Roles & Ownership Checklist](octoacme-roles-and-ownership-checklist.md)
+- [RACI Template](octoacme-raci-template.md)
+- [Execution & Tracking](octoacme-execution-and-tracking.md)

@@ -27,3 +27,5 @@ Quality assurance is built into both development and release practices. New logi
 | [Release & Deployment](octoacme-release-and-deployment.md) | Release types, pre-release checklist, deployment steps, and rollback playbook |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective structure, action item tracking, and continuous improvement culture |
 | [Roles & Personas](octoacme-roles-and-personas.md) | Detailed responsibilities, goals, and communication patterns for each role |
+| [Roles & Ownership Checklist](octoacme-roles-and-ownership-checklist.md) | Kickoff checklist to confirm required roles and responsibilities |
+| [RACI Template](octoacme-raci-template.md) | Ownership matrix template for assigning R/A/C/I across all project activities |
