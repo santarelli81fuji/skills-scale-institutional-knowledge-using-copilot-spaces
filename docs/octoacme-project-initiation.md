@@ -18,6 +18,8 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - High-level timeline and key milestones
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
+- Confirmed role roster with named owners (see [Roles & Ownership Checklist](octoacme-roles-and-ownership-checklist.md))
+- Drafted RACI matrix for core activities (see [RACI Template](octoacme-raci-template.md))
 
 ## Project One-pager Template
 - Project name:
@@ -32,6 +34,9 @@ Whenever a new project idea or feature proposal is ready to be explored.
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Required roles identified and confirmed using the [Roles & Ownership Checklist](octoacme-roles-and-ownership-checklist.md)
+- [ ] RACI matrix drafted using the [RACI Template](octoacme-raci-template.md) and shared with the team
+- [ ] Any role gaps logged as risks in the Risk Register
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
@@ -41,3 +46,12 @@ Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+- All required roles are named (or gaps are risk-logged)
+
+---
+
+## Related docs
+- [Roles & Personas](octoacme-roles-and-personas.md)
+- [Roles & Ownership Checklist](octoacme-roles-and-ownership-checklist.md)
+- [RACI Template](octoacme-raci-template.md)
+- [Project Planning](octoacme-project-planning.md)
